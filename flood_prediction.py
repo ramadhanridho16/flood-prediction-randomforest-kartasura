@@ -44,7 +44,7 @@ st.title("🌊 Prediksi Banjir + Kalkulator Debit Air Otomatis")
 # 1. Load Model
 @st.cache_resource
 def load_model():
-    return joblib.load('../TrainModel/model_banjir_rf.pkl')
+    return joblib.load('TrainModel/model_banjir_rf.pkl')
 
 model = load_model()
 
