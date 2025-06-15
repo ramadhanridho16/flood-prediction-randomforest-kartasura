@@ -39,7 +39,7 @@ import joblib
 # from data import debit_maks, luas_desa, sungai_desa  # Import dictionary
 
 # Judul Aplikasi
-st.title("🌊 Prediksi Banjir + Kalkulator Debit Air Otomatis")
+st.title("Prediksi Banjir dan Kalkulator Debit Air Otomatis")
 
 # 1. Load Model
 @st.cache_resource
